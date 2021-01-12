@@ -8,6 +8,7 @@
     "access": "public"
   },
   "scripts": {
+    "build": "tsc",
     "prettier": "prettier --write '**/*.{js,jsx,ts,tsx,json,md}'"
   },
   "lint-staged": {
@@ -21,6 +22,7 @@
   "devDependencies": {
     "husky": "4.3.7",
     "lint-staged": "10.5.3",
-    "prettier": "2.2.1"
+    "prettier": "2.2.1",
+    "typescript": "4.1.3"
   }
 }
