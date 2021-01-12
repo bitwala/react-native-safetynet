@@ -1,6 +1,6 @@
 {
   "name": "@bitwala/react-native-safetynet",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "repository": "https://github.com/bitwala/react-native-safetynet.git",
