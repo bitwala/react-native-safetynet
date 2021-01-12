@@ -12,6 +12,8 @@ import com.facebook.react.bridge.Promise;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
+import com.google.android.gms.common.api.ApiException;
+import com.google.android.gms.common.api.CommonStatusCodes;
 import com.google.android.gms.safetynet.SafetyNet;
 import com.google.android.gms.safetynet.SafetyNetApi;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -79,7 +81,15 @@ public class RNSafetyNetModule extends ReactContextBaseJavaModule {
     .addOnFailureListener(activity, new OnFailureListener() {
       @Override
       public void onFailure(@NonNull Exception e) {
-        promise.reject(e);
+        if (e instanceof ApiException) {
+            // An error with the Google Play services API contains some additional details.
+            ApiException apiException = (ApiException) e;
+            promise.reject(CommonStatusCodes.getStatusCodeString(apiException.getStatusCode()), apiException.getStatusMessage());
+        } else {
+            // A different, unknown type of error occurred.
+            promise.reject(e.getMessage());
+        }
+        
       }
     });
   }
