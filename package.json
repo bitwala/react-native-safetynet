@@ -13,7 +13,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "prepare": "yarn build",
+    "prepublishOnly": "yarn build",
     "prettier": "prettier --write '**/*.{js,jsx,ts,tsx,json,md}'"
   },
   "keywords": [
