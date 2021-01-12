@@ -27,7 +27,8 @@
   ],
   "files": [
     "src",
-    "dist"
+    "dist",
+    "android"
   ],
   "prettier": {
     "singleQuote": true
