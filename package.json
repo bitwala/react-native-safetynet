@@ -1,0 +1,26 @@
+{
+  "name": "@bitwala/react-native-safetynet",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "repository": "https://github.com/bitwala/react-native-safetynet.git",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prettier": "prettier --write '**/*.{js,jsx,ts,tsx,json,md}'"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,md}": "prettier --write"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "devDependencies": {
+    "husky": "4.3.7",
+    "lint-staged": "10.5.3",
+    "prettier": "2.2.1"
+  }
+}
