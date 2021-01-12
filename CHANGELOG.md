@@ -1,5 +1,17 @@
 # Changelog
 
+### [1.0.2](https://www.github.com/bitwala/react-native-safetynet/compare/v1.0.1...v1.0.2) (2021-01-12)
+
+
+### Bug Fixes
+
+* publish missing android folder ([7f1e263](https://www.github.com/bitwala/react-native-safetynet/commit/7f1e2633d29932145b5ea2fe8f9bef032451ee6b))
+
+
+### Miscellaneous
+
+* add changelog file to prettierignore ([f5fca3e](https://www.github.com/bitwala/react-native-safetynet/commit/f5fca3e57d8fef8b80663bbd3c20433c570693a1))
+
 ### [1.0.1](https://www.github.com/bitwala/react-native-safetynet/compare/v1.0.0...v1.0.1) (2021-01-12)
 
 
