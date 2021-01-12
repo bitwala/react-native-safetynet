@@ -10,7 +10,7 @@ Google provides an API to verify device integrity and detect harmful apps. See t
 
 or
 
-`$ yarn add react-native-google-safetynet-client`
+`$ yarn add @bitwala/react-native-safetynet`
 
 ### Mostly Automatic Installation
 
