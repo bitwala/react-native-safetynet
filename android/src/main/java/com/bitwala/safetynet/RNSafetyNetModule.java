@@ -89,7 +89,6 @@ public class RNSafetyNetModule extends ReactContextBaseJavaModule {
             // A different, unknown type of error occurred.
             promise.reject(e.getMessage());
         }
-        
       }
     });
   }
