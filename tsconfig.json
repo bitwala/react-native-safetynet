@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "lib": ["es2018"],
+    "target": "ES2019",
+    "lib": ["ES2019"],
+    "moduleResolution": "node",
+    "module": "commonjs",
     "declaration": true,
     "sourceMap": true,
     "outDir": "./dist",
