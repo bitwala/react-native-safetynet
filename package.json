@@ -16,6 +16,10 @@
     "prepare": "yarn build",
     "prettier": "prettier --write '**/*.{js,jsx,ts,tsx,json,md}'"
   },
+  "files": [
+    "src",
+    "dist"
+  ],
   "prettier": {
     "singleQuote": true
   },
