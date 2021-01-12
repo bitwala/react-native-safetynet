@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.1](https://www.github.com/bitwala/react-native-safetynet/compare/v1.0.0...v1.0.1) (2021-01-12)
+
+
+### Bug Fixes
+
+* fix publishing script ([fe5ab65](https://www.github.com/bitwala/react-native-safetynet/commit/fe5ab65c774e1cabe3da09c6af2d42770ebe2ed7))
+
 ## 1.0.0 (2021-01-12)
 
 
