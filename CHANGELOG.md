@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.1.0](https://www.github.com/bitwala/react-native-safetynet/compare/v1.0.1...v1.1.0) (2021-01-12)
+
+
+### Features
+
+* improve error returned by sendAttestationRequest ([#6](https://www.github.com/bitwala/react-native-safetynet/issues/6)) ([d1dc097](https://www.github.com/bitwala/react-native-safetynet/commit/d1dc09719d5987b9689f24c92d2b8455c2b051d4))
+
+
+### Bug Fixes
+
+* publish missing android folder ([7f1e263](https://www.github.com/bitwala/react-native-safetynet/commit/7f1e2633d29932145b5ea2fe8f9bef032451ee6b))
+
+
+### Miscellaneous
+
+* add changelog file to prettierignore ([f5fca3e](https://www.github.com/bitwala/react-native-safetynet/commit/f5fca3e57d8fef8b80663bbd3c20433c570693a1))
+
 ### [1.0.1](https://www.github.com/bitwala/react-native-safetynet/compare/v1.0.0...v1.0.1) (2021-01-12)
 
 
